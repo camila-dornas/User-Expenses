@@ -1,0 +1,23 @@
+{
+  "name": "user-expenses",
+  "version": "1.0.0",
+  "description": "The repository contains a CRUD implementation of a REST API in Node.js, providing user authentication and expense management functionalities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camila-dornas/User-Expenses.git"
+  },
+  "keywords": [],
+  "author": "Camila Dornas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camila-dornas/User-Expenses/issues"
+  },
+  "homepage": "https://github.com/camila-dornas/User-Expenses#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
