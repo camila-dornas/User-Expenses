@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
-import { TokenUser } from '../validate/interfaceUser';
+import  {TokenUser}  from '../validate/interfaceUser';
 
 const keySecret = process.env.SECRET_KEY_TOKEN;
 
