@@ -1,20 +1,6 @@
 # User Expenses
 O repositório contém uma implementação CRUD de uma API REST em Node.js, com jsonwebtoken na validação de usuário e funcionalidades de gerenciamento de despesas.
 
-## Iniciar o Projeto
-
-1. Clone o repositório: `git clone git@github.com:camila-dornas/User-Expenses.git`
-2. Instale as dependências: `npm install`
-3. Execute o servidor: `npm start`
-
-## Entidade Despesas
-
-- **Id:** Identificador único da despesa.
-- **User_id:** Usuário associado à despesa.
-- **Description:** Descrição da despesa.
-- **Value:** Valor em reais da despesa.
-- **Date:** Data em que a despesa foi criada.
-
 ## Funcionalidades da API
 
 - Garante que a data não seja no futuro.
@@ -30,6 +16,23 @@ O repositório contém uma implementação CRUD de uma API REST em Node.js, com 
 - MySQL
 - Jest
 - TypeScript
+
+## Entidade Despesas
+
+- **Id:** Identificador único da despesa.
+- **User_id:** Usuário associado à despesa.
+- **Description:** Descrição da despesa.
+- **Value:** Valor em reais da despesa.
+- **Date:** Data em que a despesa foi criada.
+
+## Iniciar o Projeto
+
+É premissa que o banco de dados MYSQL já esteja configurado e disponível no ambiente de desenvolvimento
+
+1. Clone o repositório: `git clone git@github.com:camila-dornas/User-Expenses.git`
+2. Instale as dependências: `npm install`
+3. Execute o servidor: `npm start`
+
 
 ### Observações
 
