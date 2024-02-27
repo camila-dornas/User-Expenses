@@ -18,12 +18,15 @@ O repositório contém uma implementação CRUD de uma API REST em Node.js, com 
 - TypeScript
 
 ## Entidade Despesas
-
-- **Id:** Identificador único da despesa.
-- **User_id:** Usuário associado à despesa.
-- **Description:** Descrição da despesa.
-- **Value:** Valor em reais da despesa.
-- **Date:** Data em que a despesa foi criada.
+```
+{
+"id": "Identificador único da despesa",
+"user_id": "Usuário associado à despesa",
+"description": "Descrição da despesa",
+"value": "Valor em reais da despesa",
+"date": "Data em que a despesa foi criada"
+}
+```
 
 ## Iniciar o Projeto
 
