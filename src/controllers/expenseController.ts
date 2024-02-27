@@ -2,8 +2,8 @@ import newExpenseEmail from "../utils/expenseEmail";
 import { Response, Request } from 'express';
 import schemaExpense from "../validate/expensesValidate";
 import { createExpenseModel, deleteExpenseByIdModel, getAllExpensesByUserModel, getExpenseByIdModel, updateExpenseByIdModel } from "../models/expenseModels";
-import Expense from "../validate/interfaceExpense";
-import { getUserByIdModel } from "../app/models/usersModels";
+import Expense from "../models/expenseConstructor";
+import { getUserByIdModel } from "../models/usersModels";
 
 
 export async function createExpenseController (req: Request, res: Response) {
