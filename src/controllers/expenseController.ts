@@ -1,6 +1,7 @@
 import newExpenseEmail from "../utils/expenseEmail";
+import { Response, Request } from 'express';
 import schemaExpense from "../validate/expensesValidate";
-import { createExpenseModel, deleteExpenseByIdModel, getAllExpensesByUserModel, getExpenseByIdModel, updateExpenseByIdModel } from "../app/models/expenseModels";
+import { createExpenseModel, deleteExpenseByIdModel, getAllExpensesByUserModel, getExpenseByIdModel, updateExpenseByIdModel } from "../models/expenseModels";
 import Expense from "../validate/interfaceExpense";
 import { getUserByIdModel } from "../app/models/usersModels";
 
