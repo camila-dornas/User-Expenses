@@ -1,5 +1,5 @@
 import { randomUUID } from "crypto";
-import { RequestCreateExpense } from "../validate/interfaces";
+import { RequestCreateExpense } from "../validate/interfaceExpense";
 
 export default class Expense {
   Id: string;
