@@ -1,4 +1,4 @@
-import Expense from "../validate/interfaceExpense"
+import Expense from "../models/expenseConstructor"
 import connection from "../database/connection"
 
 
@@ -9,8 +9,8 @@ export async function createExpenseModel(body: Expense){
 }
 
 export async function  getAllExpensesByUserModel(userId: string){
-  const sql = `SELECT * FROM expenses;`
-  const result = await connection.query(sql)
+  const sql = `SELECT * FROM expenses WHERE user_id=?;`
+  const result = await connection.query(sql, userId)
   return result
 }
 

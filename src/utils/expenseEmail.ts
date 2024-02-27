@@ -1,5 +1,5 @@
-import { getUserByIdModel } from "../app/models/usersModels";
-import Expense from "../validate/interfaceExpense";
+import { getUserByIdModel } from "../models/usersModels";
+import Expense from "../models/expenseConstructor";
 const sgMail = require("@sendgrid/mail")
 
 export default async function newExpenseEmail(userId: string, expense: Expense) {
@@ -9,7 +9,7 @@ export default async function newExpenseEmail(userId: string, expense: Expense) 
     const message = {
       to: process.env.COMPANY_EMAIL,
       from: user.email,
-      subject: `New expense registered`,
+      subject: `despesa cadastrada`,
       text: `     
       Informamos que há uma nova despesa cadastrada em sua conta. 
       Segue os detalhes relacionados a ela:

@@ -1,4 +1,4 @@
-import Expense from "../validate/interfaceExpense"
+import Expense from "../models/expenseConstructor"
 
 const returnExpense: Expense = {
   Id: "1b311d20-483b-41e6-b10b-f672c8c6a122",
